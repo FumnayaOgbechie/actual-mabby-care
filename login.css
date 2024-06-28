@@ -10,6 +10,7 @@ body{
 }
 .image-section{
     background-color: #FFF8F0;
+    height: 100vh;
 }
 .logo{
     margin-top: 1rem;
