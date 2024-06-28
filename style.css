@@ -637,3 +637,9 @@ h3 {
         margin: var(--default-margin);
     }
 }
+@media (max-width: 425px) {
+    .meal {
+        display: block;
+        margin: var(--default-margin);
+    }
+}
