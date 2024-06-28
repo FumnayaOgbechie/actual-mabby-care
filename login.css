@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Grandstander:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.login{
+    display: flex;
+}
+.image-section{
+    background-color: #FFF8F0;
+}
+.logo{
+    margin-top: 1rem;
+    width: 7.5rem;
+    margin-left: 1rem;
+}
+.image-section-div{
+    text-align: center;
+}
+.login-image{
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.text{
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+.icon{
+    width: 1.2rem;
+    padding: 0.2rem;
+    border: 1px solid #FFF8F0;
+}
+.icon:hover{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 0.2rem;
+    border: 1px solid #92140C;
+}
+.form-section{
+    margin-top: 7rem;
+    margin-left: 10rem;
+    text-align: center;
+}
+form{
+    text-align: justify;
+}
+
+.logo-head{
+    width: 7rem;
+    margin-left: 3rem;
+}
+.login-message{
+    margin-left: 3.1rem;
+}
+label{
+    font-size: 0.8rem;
+}
+input{
+    width: 150%;
+    padding: 1rem 0rem;
+    margin: 0.5rem 0rem 1.5rem 0rem;
+    border-radius: 0.5rem;
+    border: 1px solid #828282;
+}
+input::placeholder{
+    font-size: 0.7rem;
+}
+.center{
+    text-align: center;
+}
+.button{
+    width: 90%;
+    padding: 0.6rem 0rem 0.6rem 0rem;
+    border-radius: 0.4rem;
+    margin-left: 4rem;
+    background-color: #92140C;
+    border: 1px solid #92140C;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.button:hover{
+    background-color: #FFFFFF;
+    color: #92140C;
+    border: 1px solid #92140C;
+}
+.sign{
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: #92140C;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .form-section {
+        margin-left: 5rem;
+    }
+
+    .login-image {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .login {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-section {
+        margin: 2rem 0;
+        width: 80%;
+    }
+
+    .login-image {
+        width: 70%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sign {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 6rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .text {
+        font-size: 0.8rem;
+    }
+
+    .form-section {
+        margin: 1rem 0;
+        width: 90%;
+    }
+
+    .logo-head {
+        width: 6rem;
+        margin-left: 0;
+    }
+
+    .login-message {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        width: 5rem;
+    }
+
+    .form-section {
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .login-image {
+        width: 80%;
+    }
+
+    .text {
+        font-size: 0.7rem;
+    }
+    input{
+        width: 90%;
+        margin-left: 2rem;
+    }
+    label{
+        margin-left: 2rem;
+    }
+
+    .button {
+        width: 70%;
+        padding: 0.5rem 0;
+    }
+}
